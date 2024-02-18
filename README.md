@@ -12,3 +12,6 @@
       
 ## 🎥영상
 ![business-card](https://github.com/jeongdong99/Business-card/assets/93365714/0493bbcf-b2f6-4556-a272-bbfa1049682b)
+
+## 🔍참고
+https://www.youtube.com/watch?v=lBI6dbw8XXg&t=549s
