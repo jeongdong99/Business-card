@@ -16,18 +16,20 @@ section {
     width: 640px;
     height: 360px;
     position: relative;
+
 }
 .business-card .front ,
 .business-card .back {
     height: 100%;
     width: 100%;
+    border: 3px solid black;
     backface-visibility: hidden;
     border-radius: 24px;
     overflow: hidden;
 }
 
 .business-card .front{
-    background-color: #ffbb90;
+    background-color: #ffffff;
     color: #242424;
     display: flex;
     justify-content: center;
@@ -59,13 +61,24 @@ section {
 .business-card .front::before {
     content: "";
     border-radius: 50%;
-    border: 8px solid #24242420;
+    border: 8px solid #19eedc;
     position: absolute;
-    top: -25%;
-    height: 150%;
-    width: 320px;
-    transform: rotateZ(35deg);
+    height: 130%;
+    width: 280px;
+    transform: rotateZ(50deg);
 }
+
+.business-card .front::after {
+    content: "";
+    border-radius: 50%;
+    border: 8px solid #19eedc;
+    position: absolute;
+    height: 130%;
+    width: 280px;
+    transform: rotateZ(-50deg);
+}
+
+
 .business-card .back {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -73,7 +86,7 @@ section {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #242424;;
+    background-color: #19eedc;;
     transform: perspective(700px) rotateX(-180deg);
 
 }
@@ -93,7 +106,7 @@ section {
 .business-card .back .image{
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    background-color: #ffbb90;
+    background-color: #ffffff;
     color: #242424;
     align-items: center;
 }
@@ -121,7 +134,7 @@ section {
 
 .business-card .back .info {
     align-items: flex-start;
-    color: #ffbb90;
+    color: black;
 }
 
 .business-card .back .info .contact{
