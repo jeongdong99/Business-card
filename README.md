@@ -11,3 +11,4 @@
 - [x] ~~마우스 커서 호버 시 flip animation 구현~~
       
 ## 🎥영상
+![business-card](https://github.com/jeongdong99/Business-card/assets/93365714/0493bbcf-b2f6-4556-a272-bbfa1049682b)
